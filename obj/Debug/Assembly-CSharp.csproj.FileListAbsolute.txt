@@ -1,2 +1,0 @@
-E:\Users\Documentos\GitHub\ProyectoIntegrado\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-E:\Users\Documentos\GitHub\ProyectoIntegrado\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
