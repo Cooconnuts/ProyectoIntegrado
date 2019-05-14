@@ -14,7 +14,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Kitchen_TableChair
-    second: {fileID: 2100000, guid: d1c67a1ef08201d4dbff075a39fc0316, type: 2}
+    second: {fileID: 2100000, guid: 6c52624372d60a1458f518e84230ce90, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
@@ -73,7 +73,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   importAnimation: 1
