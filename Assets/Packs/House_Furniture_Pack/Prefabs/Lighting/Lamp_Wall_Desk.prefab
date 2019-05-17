@@ -181,12 +181,12 @@ GameObject:
   - component: {fileID: 8094438232815835328}
   - component: {fileID: 7655024149169784238}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Spot_Light_Wall_Desk_Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8094438232815835328
 Transform:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ Light:
   m_SpotAngle: 60
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -231,7 +231,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

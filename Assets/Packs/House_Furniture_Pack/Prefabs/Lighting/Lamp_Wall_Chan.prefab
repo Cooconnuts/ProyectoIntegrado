@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 3623948307618028652}
   - component: {fileID: 7611836075028072911}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point_Light_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7062074990638267005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00056522095, y: 0.032522853, z: 0.06269647}
+  m_LocalPosition: {x: -0.00056522095, y: 0.1015, z: 0.1163}
   m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_Children: []
   m_Father: {fileID: 431950}
@@ -143,9 +143,9 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
+    m_Bias: 0.04
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 0.08
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -153,7 +153,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

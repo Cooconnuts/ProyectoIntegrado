@@ -1,0 +1,8 @@
+
+=== Fri May 17 01:15:39 2019
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.xr.openvr.standalone@1.0.5

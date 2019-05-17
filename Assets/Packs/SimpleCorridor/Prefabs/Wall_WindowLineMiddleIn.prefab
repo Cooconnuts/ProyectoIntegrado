@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33836368470087328}
   - component: {fileID: 23527222721133230}
   - component: {fileID: 64921992818113324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_DetailHorizontal (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 33810651604946464}
   - component: {fileID: 23259358108709436}
   - component: {fileID: 64191535710422124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_DetailHorizontal (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 33977568598644846}
   - component: {fileID: 23932819238455360}
   - component: {fileID: 64526811308547694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_DetailHorizontal (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 33122485712123612}
   - component: {fileID: 23962826895604376}
   - component: {fileID: 64878928548908536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 33112540023731742}
   - component: {fileID: 23183442347033140}
   - component: {fileID: 64116948943733504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_DetailHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 33753505118901988}
   - component: {fileID: 23211237721820542}
   - component: {fileID: 64201712729743734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 33850796447596246}
   - component: {fileID: 23144625725250652}
   - component: {fileID: 64839021416847314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_WindowLineMiddleIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}

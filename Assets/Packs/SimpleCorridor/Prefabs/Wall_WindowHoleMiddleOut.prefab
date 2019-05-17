@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33465237668331588}
   - component: {fileID: 23599511364679098}
   - component: {fileID: 64493322999383410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_WindowHoleMiddleOut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 33202785566298348}
   - component: {fileID: 23835980179925606}
   - component: {fileID: 64227581400029038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 33034409274993836}
   - component: {fileID: 23937537000193946}
   - component: {fileID: 64065078254819732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
