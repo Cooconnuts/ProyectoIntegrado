@@ -17,19 +17,6 @@
  * 
  * He puesto que todos los prefabs de las paredes, suelos y techos generen sombras a ambos lados y algunas luces siguen traspasándolos
  * 
- * No puedo coger los objetos, como si no se detectaran los controladores, los objetos no reaccionan a estos
- * 
- * 
- * De repente Unity compila constantemente los scripts aun que no haya hecho ningún cambio en ellos, aun que sea modificando cualquier cosa de la escena o editor 
- *  se pone a compilar los scripts constantemente
- *  
- * A continuación
- * 
- * Al instalar SteamVR Plugin Unity instala constantemente el OpenVR, aun que lo desinstale lo vuelve a instalar inmediatamente. Lo único que soluciona esto es borrar
- *  la carpeta de SteamVR
- * 
- * Despues de cada mínimo cambio Unity compila los scripts e instala de nuevo el OpenVR
- * 
  * 
  * Error Objetos con UVs sobrepuestas
  * https://docs.unity3d.com/Manual/ProgressiveLightmapper-UVOverlap.html
