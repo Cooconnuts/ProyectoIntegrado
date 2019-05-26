@@ -5,6 +5,7 @@
  * Si fuerzo mucho el movimiento hacia una pared acabo atravesándola
  *
  * Para abrir las puertas, ¿puedo limitar el ángulo en el que se abre la puerta como máximo?
+ * https://www.moddb.com/tutorials/how-to-open-a-vr-door-in-unity-and-steamvr
  * 
  * 
  */
