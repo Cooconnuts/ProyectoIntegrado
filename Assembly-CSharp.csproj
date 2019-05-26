@@ -352,6 +352,7 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
     <Compile Include="Assets\Packs\House_Furniture_Pack\Scripts\MirrorReflection.cs" />
     <Compile Include="Assets\Scripts\Activar_Luz.cs" />
+    <Compile Include="Assets\Scripts\Interruptor.cs" />
     <Compile Include="Assets\Scripts\Revisar.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />

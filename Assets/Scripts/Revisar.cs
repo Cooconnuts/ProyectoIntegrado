@@ -2,13 +2,9 @@
  * 
  * ¿Para la interfaz hay que tener algo en cuenta? ¿Se puede hacer plana para ponerla en una pared o algo o tiene que ser en 3D para VR sí o sí?
  * 
- * ¿En el simulador deberia haber colisiones con los objetos? Lo traspaso todo 
- * 
- * 
- * ¿Tengo que bajar la resolución de todos los archivos de las texturas para bajarle el peso? 
- * (algunas texturas están en 4K) 
- * ¿O sólo bajo la resolución de los archivos que más pesen? 
- * Son muchas texturas como para ir 1 a 1, si no hay otra manera pues se hace.
+ * Si fuerzo mucho el movimiento hacia una pared acabo atravesándola
+ *
+ * Para abrir las puertas, ¿puedo limitar el ángulo en el que se abre la puerta como máximo?
  * 
  * 
  */
@@ -29,6 +25,12 @@
  * 
  * ¿Qué hago con el exterior? ¿Creo una pequeña zona residencial para que no se quede la casa en el vacío?
  * ¿O qué otra cosa podría hacer? (sin que resulte en añadir muchos más elementos para no cargar la escena)
+ * 
+ * 
+ * ¿Tengo que bajar la resolución de todos los archivos de las texturas para bajarle el peso? 
+ * (algunas texturas están en 4K) 
+ * ¿O sólo bajo la resolución de los archivos que más pesen? 
+ * Son muchas texturas como para ir 1 a 1, si no hay otra manera pues se hace.
  * 
  * 
  */
