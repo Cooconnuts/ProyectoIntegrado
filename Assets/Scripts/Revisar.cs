@@ -1,12 +1,14 @@
 ﻿/* ---------- DUDAS ----------
  * 
- * ¿Para la interfaz hay que tener algo en cuenta? ¿Se puede hacer plana para ponerla en una pared o algo o tiene que ser en 3D para VR sí o sí?
+ *
  * 
  * Si fuerzo mucho el movimiento hacia una pared acabo atravesándola
  *
  * Para abrir las puertas, ¿puedo limitar el ángulo en el que se abre la puerta como máximo?
  * https://www.moddb.com/tutorials/how-to-open-a-vr-door-in-unity-and-steamvr
  * 
+ * Por algún motivo tengo las luces de la planta de abajo como estáticas pero las luces de la planta de arriba no lo son, estas luces son las que se encienden con los interruptores
+ * ¿Las pongo todas como estáticas o como no estáticas?
  * 
  */
 

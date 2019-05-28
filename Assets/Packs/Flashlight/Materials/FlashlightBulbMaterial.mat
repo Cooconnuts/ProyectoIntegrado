@@ -67,7 +67,7 @@ Material:
     - _DstBlend: 10
     - _EmissionScaleUI: 0.5
     - _GlossMapScale: 1
-    - _Glossiness: 0.423
+    - _Glossiness: 0.1
     - _GlossyReflections: 1
     - _Mode: 3
     - _OcclusionStrength: 1
