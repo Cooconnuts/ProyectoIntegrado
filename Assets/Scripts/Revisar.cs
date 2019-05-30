@@ -1,4 +1,16 @@
-﻿/* ---------- DUDAS ----------
+﻿/*  ---------- TAREAS ----------
+ * 
+ * Testear en VR si todas las luces encienden como tienen que hacerlo (que el material se cambie)
+ * 
+ * Testear en VR si todos los interruptores y la linterna suenan al pulsarse
+ * 
+ * Testear en Vr si se puede subir la escalera y si hay que aumentar el Step Up Offset en VRTK_Scripts > BodyPhysics
+ * 
+ */
+
+
+
+/* ---------- DUDAS ----------
  * 
  *
  * 
