@@ -27,7 +27,7 @@ Shader "OvrAvatar/Avatar_Mobile_CombinedMeshExpressive"
         [NoScaleOffset] _MainTex("Main Texture Array", 2DArray) = "white" {}
         [NoScaleOffset] _NormalMap("Normal Map Array", 2DArray) = "bump" {}
         [NoScaleOffset] _RoughnessMap("Roughness Map Array", 2DArray) = "black" {}
-
+        
         _Dimmer("Dimmer", Range(0.0,1.0)) = 1.0
         _Alpha("Alpha", Range(0.0,1.0)) = 1.0
 
@@ -44,6 +44,9 @@ Shader "OvrAvatar/Avatar_Mobile_CombinedMeshExpressive"
         _MaskColorSclera("Sclera Color", Color) = (0.0,0.0,0.0,1.0)
         _MaskColorGums("Gums Color", Color) = (0.0,0.0,0.0,1.0)
         _MaskColorTeeth("Teeth Color", Color) = (0.0,0.0,0.0,1.0)
+
+        [HideInInspector] _SrcBlend("", Float) = 1
+        [HideInInspector] _DstBlend("", Float) = 0
     }
 
     SubShader

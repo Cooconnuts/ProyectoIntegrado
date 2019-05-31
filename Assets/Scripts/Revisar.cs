@@ -12,15 +12,16 @@
 
 /* ---------- DUDAS ----------
  * 
- *
+ * Como hacer el booleano para el cuadro de luces
  * 
- * Si fuerzo mucho el movimiento hacia una pared acabo atravesándola
- *
+ * Como hacer para poder abrir puertas
+ * 
+ * Como hacer el conteo las luces que se han encendido (*cuál*opcional y cuantas veces) y el tiempo que están encendidas.
+ * 
+ * 
+ * 
  * Para abrir las puertas, ¿puedo limitar el ángulo en el que se abre la puerta como máximo?
  * https://www.moddb.com/tutorials/how-to-open-a-vr-door-in-unity-and-steamvr
- * 
- * Por algún motivo tengo las luces de la planta de abajo como estáticas pero las luces de la planta de arriba no lo son, estas luces son las que se encienden con los interruptores
- * ¿Las pongo todas como estáticas o como no estáticas?
  * 
  */
 

@@ -295,7 +295,8 @@ public class OvrAvatar : MonoBehaviour
         GameObject go,
         ovrAvatarRenderPart_SkinnedMeshRenderPBS_V2 skinnedMeshRenderPBSV2,
         OvrAvatarMaterialManager materialManager,
-        bool isBodyPartZero)
+        bool isBodyPartZero,
+        bool isControllerModel)
     {
         OvrAvatarSkinnedMeshPBSV2RenderComponent skinnedMeshRenderer = go.AddComponent<OvrAvatarSkinnedMeshPBSV2RenderComponent>();
         skinnedMeshRenderer.Initialize(
@@ -308,7 +309,8 @@ public class OvrAvatar : MonoBehaviour
             isBodyPartZero && CombineMeshes,
             LevelOfDetail,
             isBodyPartZero && EnableExpressive,
-            this);
+            this,
+            isControllerModel);
 
         return skinnedMeshRenderer;
     }
@@ -823,6 +825,10 @@ public class OvrAvatar : MonoBehaviour
         ovrAvatarComponent component,
         Transform parent)
     {
+        bool isBody = ovrComponent.name == "body";
+        bool isLeftController = ovrComponent.name == "controller_left";
+        bool isReftController = ovrComponent.name == "controller_right";
+
         for (UInt32 renderPartIndex = 0; renderPartIndex < component.renderPartCount; renderPartIndex++)
         {
             GameObject renderPartObject = new GameObject();
@@ -844,14 +850,13 @@ public class OvrAvatar : MonoBehaviour
                     break;
                 case ovrAvatarRenderPartType.SkinnedMeshRenderPBS_V2:
                     {
-                        bool isBody = ovrComponent.name == "body";
-
                         ovrRenderPart = AddSkinnedMeshRenderPBSV2Component(
                             renderPart,
                             renderPartObject,
                             CAPI.ovrAvatarRenderPart_GetSkinnedMeshRenderPBSV2(renderPart),
                             isBody ? DefaultBodyMaterialManager : DefaultHandMaterialManager,
-                            isBody && renderPartIndex == 0);
+                            isBody && renderPartIndex == 0,
+                            isLeftController || isReftController);
                     }
                     break;
                 default:

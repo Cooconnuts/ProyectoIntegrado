@@ -23,11 +23,10 @@ Shader "OvrAvatar/Avatar_Mobile_Loader"
 
     SubShader
     {
-        Tags { "LightMode" = "ForwardBase" "Queue" = "Transparent" "RenderType" = "Transparent" "IgnoreProjector" = "True" }
         Pass
         {
+            Blend One Zero
             Cull Back
-            Blend SrcAlpha OneMinusSrcAlpha
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag

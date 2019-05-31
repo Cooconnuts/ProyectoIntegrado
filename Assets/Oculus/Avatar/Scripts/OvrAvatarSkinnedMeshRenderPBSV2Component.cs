@@ -25,7 +25,8 @@ public class OvrAvatarSkinnedMeshPBSV2RenderComponent : OvrAvatarRenderComponent
         bool isCombinedMaterial,
         ovrAvatarAssetLevelOfDetail lod,
         bool assignExpressiveParams,
-        OvrAvatar avatar)
+        OvrAvatar avatar,
+        bool isControllerModel)
     {
         AvatarMaterialManager = materialManager;
         IsCombinedMaterial = isCombinedMaterial;
@@ -53,6 +54,11 @@ public class OvrAvatarSkinnedMeshPBSV2RenderComponent : OvrAvatarRenderComponent
             : avatar.Skinshaded_VertFrag_CombinedMesh;
 
         var mainShader = IsCombinedMaterial ? combinedComponentShader : singleComponentShader;
+
+        if (isControllerModel)
+        {
+            mainShader = Shader.Find("OvrAvatar/AvatarPBRV2Simple");
+        }
 
        AvatarLogger.Log("OvrAvatarSkinnedMeshPBSV2RenderComponent Shader is: " + mainShader != null 
            ? mainShader.name : "null");
@@ -96,7 +102,7 @@ public class OvrAvatarSkinnedMeshPBSV2RenderComponent : OvrAvatarRenderComponent
         else
         {
             mesh.sharedMaterial = CreateAvatarMaterial(gameObject.name + DEFAULT_MATERIAL_NAME, mainShader);
-            if (avatar.UseTransparentRenderQueue)
+            if (avatar.UseTransparentRenderQueue && !isControllerModel)
             {
                 // Initialize shader to use transparent render queue with alpha blending
                 mesh.sharedMaterial.SetOverrideTag("RenderType", "Transparent");

@@ -11,8 +11,12 @@ public abstract class OvrAvatarDriver : MonoBehaviour {
         Unity
     };
 
-    // TODO: Remove when OvrInput support Quest query. T35586204
+#if UNITY_ANDROID
+    private const ovrAvatarControllerType Desired6DofController = ovrAvatarControllerType.Quest;
+#else
     private const ovrAvatarControllerType Desired6DofController = ovrAvatarControllerType.Touch;
+#endif
+
     public PacketMode Mode;
     protected PoseFrame CurrentPose;
     public PoseFrame GetCurrentPose() { return CurrentPose; }
