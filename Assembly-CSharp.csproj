@@ -353,6 +353,7 @@
     <Compile Include="Assets\Packs\House_Furniture_Pack\Scripts\MirrorReflection.cs" />
     <Compile Include="Assets\Scripts\Activar_Luz.cs" />
     <Compile Include="Assets\Scripts\Interruptor.cs" />
+    <Compile Include="Assets\Scripts\InterruptorGeneral.cs" />
     <Compile Include="Assets\Scripts\Revisar.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
@@ -720,6 +721,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets\Packs\House_Furniture_Pack\Readme.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
+    <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
     <None Include="Assets\Packs\House_Furniture_Pack\Materials\Mirror.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />

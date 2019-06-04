@@ -6,6 +6,15 @@
  * 
  * Testear en Vr si se puede subir la escalera y si hay que aumentar el Step Up Offset en VRTK_Scripts > BodyPhysics
  * 
+ * 
+ * Programar el cuadro de luces
+ * 
+ * Hacer las puertas funcionales
+ * 
+ * Acabar la interfaz
+ * 
+ * 
+ * 
  */
 
 
@@ -26,6 +35,8 @@
  */
 
 /* ---------- PROBLEMAS ----------
+ * 
+ * Al descargar del github el proyecto se me pierden los materiales de las lámparas cuando están apagadas habiéndolas puesto bien antes
  * 
  * He puesto que todos los prefabs de las paredes, suelos y techos generen sombras a ambos lados y algunas luces siguen traspasándolos
  * 
