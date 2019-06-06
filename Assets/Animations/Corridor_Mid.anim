@@ -101,11 +101,76 @@ AnimationClip:
     path: Lamp_Wall_Corridor/Light_Wall_Corridor
     classID: 108
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 170
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 170
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_SpotAngle
+    path: Lamp_Bedroom/Spot Light
+    classID: 108
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Intensity
+    path: Lamp_Bedroom/Spot Light
+    classID: 108
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 96f9b2c1bdc2b9a4f98f3407b0b2eeab, type: 2}
-    - time: 0.016666668
+    - time: 0.51666665
       value: {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     attribute: m_Materials.Array.data[0]
     path: Lamp_Wall_Corridor
@@ -127,6 +192,15 @@ AnimationClip:
       value: {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     attribute: m_Materials.Array.data[0]
     path: Lamp_Wall_Corridor3
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 96f9b2c1bdc2b9a4f98f3407b0b2eeab, type: 2}
+    - time: 0.51666665
+      value: {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: Lamp_Bedroom
     classID: 23
     script: {fileID: 0}
   m_SampleRate: 60
@@ -158,6 +232,13 @@ AnimationClip:
       customType: 25
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 3360417757
+      attribute: 898800009
+      script: {fileID: 0}
+      typeID: 108
+      customType: 25
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 3281917425
       attribute: 0
       script: {fileID: 0}
@@ -178,7 +259,23 @@ AnimationClip:
       typeID: 23
       customType: 21
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 866024746
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3360417757
+      attribute: 3044587006
+      script: {fileID: 0}
+      typeID: 108
+      customType: 25
+      isPPtrCurve: 0
     pptrCurveMapping:
+    - {fileID: 2100000, guid: 96f9b2c1bdc2b9a4f98f3407b0b2eeab, type: 2}
+    - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     - {fileID: 2100000, guid: 96f9b2c1bdc2b9a4f98f3407b0b2eeab, type: 2}
     - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     - {fileID: 2100000, guid: 96f9b2c1bdc2b9a4f98f3407b0b2eeab, type: 2}
@@ -190,7 +287,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.3333334
+    m_StopTime: 1.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -288,6 +385,71 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_Intensity
     path: Lamp_Wall_Corridor/Light_Wall_Corridor
+    classID: 108
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 170
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 170
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_SpotAngle
+    path: Lamp_Bedroom/Spot Light
+    classID: 108
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Intensity
+    path: Lamp_Bedroom/Spot Light
     classID: 108
     script: {fileID: 0}
   m_EulerEditorCurves: []

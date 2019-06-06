@@ -96,6 +96,13 @@ AnimationClip:
     path: Lamp_Wall_Corridor3
     classID: 23
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: Lamp_Bedroom
+    classID: 23
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -125,6 +132,13 @@ AnimationClip:
       customType: 21
       isPPtrCurve: 1
     - serializedVersion: 2
+      path: 866024746
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    - serializedVersion: 2
       path: 3418452132
       attribute: 898800009
       script: {fileID: 0}
@@ -146,6 +160,7 @@ AnimationClip:
       customType: 25
       isPPtrCurve: 0
     pptrCurveMapping:
+    - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}
     - {fileID: 2100000, guid: 84d5917d75387f84085c26375b45b8e7, type: 2}

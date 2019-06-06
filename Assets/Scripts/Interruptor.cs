@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interruptor : MonoBehaviour
 {
-    //bool Activado = false;
+    public static bool Activado = false;
     public Animator luz;
     // Start is called before the first frame update
     void Start()
@@ -20,10 +20,15 @@ public class Interruptor : MonoBehaviour
 
     public void Usar()
     {
-        //if (Activado == true)
-        //{
+        if (Activado == true)
+        {
             luz.SetTrigger("activar");
-        //}
+        }
         
+    }
+
+    public void CuadroLuces()
+    {
+        Activado = true;
     }
 }
