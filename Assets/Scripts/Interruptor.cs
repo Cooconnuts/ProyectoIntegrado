@@ -13,11 +13,13 @@ public class Interruptor : MonoBehaviour
     private float lightTime = 0; // Tiempo que el interruptor esta encendido
     private Text textTime; // Texto que muestra el tiempo 
     private bool encendida = false; // Indica si la lus esta encendida
+    public bool fusibleActivo = true;
     
     public Animator luz;
     // Start is called before the first frame update
     void Start()
     {
+        Interruptor.Activado = fusibleActivo;
         if (nombre == "")
         {
             // si no le ponemos nombre coge el nombre del objeto
