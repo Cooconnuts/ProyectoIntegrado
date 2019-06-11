@@ -4,4 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFA_Principal.unity"
+    guid: 076654544db89a14db08a49ab52985f5
+  - enabled: 1
+    path: Assets/Scenes/Nivel_Bajo.unity
+    guid: 1c7c5771a5132dc4ca3744b9ff81c7ab
+  - enabled: 1
+    path: Assets/Scenes/Nivel_Alto.unity
+    guid: da3089c2c015cf54b9694ab669a59e0e
+  m_configObjects: {}
