@@ -30,5 +30,6 @@ public class Interruptor : MonoBehaviour
     public void CuadroLuces()
     {
         Activado = true;
+        luz.SetTrigger("activar");
     }
 }

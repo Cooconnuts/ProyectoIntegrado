@@ -350,10 +350,17 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Packs\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Packs\House_Furniture_Pack\Scripts\MirrorReflection.cs" />
     <Compile Include="Assets\Scripts\Activar_Luz.cs" />
     <Compile Include="Assets\Scripts\Interruptor.cs" />
-    <Compile Include="Assets\Scripts\InterruptorGeneral.cs" />
     <Compile Include="Assets\Scripts\Revisar.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
@@ -700,6 +707,7 @@
     <None Include="Assets\Packs\Day-Night Skyboxes\readme.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
+    <None Include="Assets\Packs\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
