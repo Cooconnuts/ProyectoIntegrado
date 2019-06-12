@@ -357,7 +357,7 @@
     <Compile Include="Assets\Packs\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\Packs\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Packs\House_Furniture_Pack\Scripts\MirrorReflection.cs" />
-    <Compile Include="Assets\Scripts\Activar_Luz.cs" />
+    <Compile Include="Assets\Scripts\BotonMenu.cs" />
     <Compile Include="Assets\Scripts\Fusible.cs" />
     <Compile Include="Assets\Scripts\Interruptor.cs" />
     <Compile Include="Assets\Scripts\Revisar.cs" />
