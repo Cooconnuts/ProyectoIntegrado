@@ -13,19 +13,51 @@ public class Interruptor : MonoBehaviour
     private float lightTime = 0; // Tiempo que el interruptor esta encendido
     private Text textTime; // Texto que muestra el tiempo 
     private bool encendida = false; // Indica si la lus esta encendida
-    public bool fusibleActivo = true;
+    
     
     public Animator luz;
     // Start is called before the first frame update
     void Start()
     {
-        Interruptor.Activado = fusibleActivo;
+        
         if (nombre == "")
         {
             // si no le ponemos nombre coge el nombre del objeto
             nombre = transform.name;
         }
        
+        
+    }
+
+    
+    public void Usar()
+    {
+        if (Interruptor.Activado == true)
+        {
+            encendida = !encendida;
+            luz.SetTrigger("activar");
+            if (encendida && lightTime == 0)
+            {
+                AddEtiqueta();
+            }
+
+            if (encendida)
+            {
+                textTime.color = Color.yellow;
+            }
+            else
+            {
+                textTime.color = Color.black;
+            }
+        }
+        
+    }
+
+  
+
+    void AddEtiqueta()
+    {
+        
         var panel = GameObject.Find("PanelUILuces"); // buscamos el panel donde mostraremos el tiempo de las luces
        
         // ---- Creacion de la etiqueta con el nombre de la luz
@@ -49,32 +81,11 @@ public class Interruptor : MonoBehaviour
         // Cada segundo actualizaremos el tiempo en la tabla
         InvokeRepeating("actualizaMarcador",1,1);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
-    public void Usar()
-    {
-        if (Activado == true)
-        {
-            encendida = !encendida;
-            luz.SetTrigger("activar");
-        }
-        
-    }
-
-    public void CuadroLuces()
-    {
-        Activado = true;
-        luz.SetTrigger("activar");
-       
-    }
-
+    
+    
     void actualizaMarcador()
     {
+        
         if (encendida)
         {
             lightTime += 1;
@@ -82,6 +93,5 @@ public class Interruptor : MonoBehaviour
             textTime.text = lightTime.ToString() + " s";
             
         }
-        
     }
 }
