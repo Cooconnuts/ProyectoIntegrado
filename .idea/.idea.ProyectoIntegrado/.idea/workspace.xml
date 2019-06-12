@@ -2,11 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c19ced-cb12-45ef-9a17-0152e7341b36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BedroomDouble_Low.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BedroomDouble_Low.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fuse Box 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fuse Box 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/09 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/09 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/10 - Default 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/10 - Default 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/10 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/10 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Material #33.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Material #33.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Material.005.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Material.005.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Sony-Xperia-Z-back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Sony-Xperia-Z-back.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Sony-Xperia-Z-front.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Sony-Xperia-Z-front.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/VRayBlendMtl_color.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/VRayBlendMtl_color.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Back.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Back.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Cam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Cam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Front.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/Xperia_Front.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/black_plastik.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/black_plastik.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/colored_glass_lens.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/colored_glass_lens.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/display.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/display.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/glass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/glass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/grid_mtl.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/grid_mtl.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/mobile camera tex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/mobile camera tex.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/silver_metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/silver_metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/vRayMtl_metal_parts.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Materials/Iphone materials/vRayMtl_metal_parts.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Xperia.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Meshes/Xperia.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Office/Xperia.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Office/Xperia.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-1.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-1.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-2.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-2.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-3.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-3.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-4.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-4.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-5.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-5.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-6.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-6.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BotonMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProyectoIntegrado/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProyectoIntegrado/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProyectoIntegrado/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProyectoIntegrado/v15/Server/sqlite3/storage.ide" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fuse Box.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fuse Box 2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fuse Box.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fuse Box 2.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_BedroomSmall.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BedroomSmall.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_BedroomSmall.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BedroomSmall.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_Bathroom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bathroom.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_Bathroom.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bathroom.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_BathroomUp.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BathroomUp.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_BathroomUp.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BathroomUp.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_Kitchen.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Kitchen.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Ceiling_Kitchen.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Kitchen.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Chandelier_BedroomDouble.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BedroomDouble_High.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Chandelier_BedroomDouble.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BedroomDouble_High.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_ExtractionHood 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ExtractionHood.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_ExtractionHood 1.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ExtractionHood.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_ExtractionHood.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_ExtractionHood.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Office.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Office.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Office.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Office.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Table.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/KitchenTable.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Table.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/KitchenTable.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Wall_Desk.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Desk.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Wall_Desk.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Desk.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Wall_Entrance.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Entrance.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lamp_Wall_Entrance.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Entrance.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Corridor.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Corridor.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Corridor.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Corridor.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_CorridorUp.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CorridorUp.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_CorridorUp.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CorridorUp.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_LivingRoom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/LivingRoom.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_LivingRoom.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/LivingRoom.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Mirror.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Mirror.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Mirror.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Mirror.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_MirrorUp.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/MirrorUp.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_MirrorUp.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/MirrorUp.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Stairs.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Stairs.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lights_Stairs.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Stairs.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/fuse.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/fuse.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Materials/Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Materials/Mirror.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Lighting/Lamp_Wall_Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Lighting/Lamp_Wall_Toilet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menú_Principal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menú_Principal.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-10_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-10_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-11_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-11_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-12_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-12_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-13_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-13_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-14_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-14_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-15_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-15_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-6_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-6_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-7_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-7_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-8_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-8_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-9_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/Lightmap-9_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Activar_Luz.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Activar_Luz.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BotonMenu.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interruptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interruptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Revisar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Revisar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoIntegrado.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIntegrado.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-              <folding>
-                <marker date="1560376771474" expanded="true" signature="6:139" ph="..." />
-                <marker date="1560376771474" expanded="true" signature="181:3007" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="782:968" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="823:945" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="997:1453" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="1045:1438" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="1175:1234" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="1262:1337" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="1354:1428" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="1481:2763" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="2802:3005" ph="{...}" />
-                <marker date="1560376771474" expanded="true" signature="2840:2999" ph="{...}" />
-              </folding>
+            <state relative-caret-position="1280">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -62,8 +190,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fusible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fusible.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,6 +221,15 @@
     </navigator>
     <panes>
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -145,12 +282,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560374854144</updated>
-      <workItem from="1560374859158" duration="1911000" />
+      <workItem from="1560374859158" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1911000" />
+    <option name="totallyTimeSpent" value="2281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,7 +300,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1058" y="166" width="1066" height="1656" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925521" />
@@ -221,22 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <marker date="1560376771474" expanded="true" signature="6:139" ph="..." />
-            <marker date="1560376771474" expanded="true" signature="181:3007" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="782:968" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="823:945" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="997:1453" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="1045:1438" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="1175:1234" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="1262:1337" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="1354:1428" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="1481:2763" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="2802:3005" ph="{...}" />
-            <marker date="1560376771474" expanded="true" signature="2840:2999" ph="{...}" />
-          </folding>
+        <state relative-caret-position="1280">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
         </state>
       </provider>
     </entry>

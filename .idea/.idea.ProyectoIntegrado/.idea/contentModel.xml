@@ -716,7 +716,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Activar_Luz.cs" t="Include" />
+          <e p="BotonMenu.cs" t="Include" />
           <e p="Fusible.cs" t="Include" />
           <e p="Interruptor.cs" t="Include" />
           <e p="Revisar.cs" t="Include" />
