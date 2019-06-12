@@ -12,14 +12,14 @@ public class Interruptor : MonoBehaviour
     public GameObject etiqueta; // Prefab de la etiqueta que vamos a crear
     private float lightTime = 0; // Tiempo que el interruptor esta encendido
     private Text textTime; // Texto que muestra el tiempo 
-    private bool encendida = false; // Indica si la lus esta encendida
-    public bool fusibleActivo = true;
+    private bool encendida = false; // Indica si la luz esta encendida
+    //public bool fusibleActivo = false;
     
     public Animator luz;
     // Start is called before the first frame update
     void Start()
     {
-        Interruptor.Activado = fusibleActivo;
+        //Interruptor.Activado = fusibleActivo;
         if (nombre == "")
         {
             // si no le ponemos nombre coge el nombre del objeto

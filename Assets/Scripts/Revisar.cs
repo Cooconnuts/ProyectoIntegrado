@@ -1,20 +1,27 @@
 ﻿/*  ---------- TAREAS ----------
  * 
- * Testear en VR si todas las luces encienden como tienen que hacerlo (que el material se cambie)
- * 
- * Testear en VR si todos los interruptores y la linterna suenan al pulsarse
- * 
- * Testear en Vr si se puede subir la escalera y si hay que aumentar el Step Up Offset en VRTK_Scripts > BodyPhysics
- * 
+ * EN CASA
  * 
  * Programar el cuadro de luces (hacer que funcione al activarlo y desactivarlo, no solo al activarlo la primera vez)
  * 
- * Hacer las puertas funcionales
- * 
- * Acabar la interfaz y hacerla funcional
- * 
+ * Acabar la interfaz y hacerla funcional (testing)
  * 
  * Conteo de luces
+ * 
+ * Añadir movil para buscar, ponerlo en el baño de abajo
+ * https://www.turbosquid.com/3d-models/3ds-max-6-apple-iphone/854423
+ * 
+ * 
+ * 
+ * EN LA ESCAV
+ * 
+ * Testear en Vr si se puede subir la escalera y si hay que aumentar el Step Up Offset en VRTK_Scripts > BodyPhysics
+ * 
+ * Reajustar la escala de la casa
+ * 
+ * Hacer las puertas funcionales (testing)
+ * 
+ * Ajustar colores e interacciones de los botones del menu principal
  * 
  */
 
@@ -30,8 +37,10 @@
  * Nivel alto: tal como está
  * 
  * Como hacer que los botones de la interfaz reaccionen al puntero
+ *
  * 
- * ¿Hay alguna manera de meter imágenes y que queden con mejor calidad? Para la interfaz
+ * Cómo incorporo lo del panel que sale al acabar con la info de las luces?
+ * 
  * 
  * ¿Cómo hacer para entregarlo? Aumento la resolución de las luces y sombras para hacer el ejecutable?
  * 
@@ -44,11 +53,10 @@
  * 
  * Al descargar del github el proyecto se me pierden los materiales de las lámparas cuando están apagadas habiéndolas puesto bien antes
  * 
- * He puesto que todos los prefabs de las paredes, suelos y techos generen sombras a ambos lados y algunas luces siguen traspasándolos
- * 
  * Cuando utilizo las gafas en la escuela, se me cambia la altura del avatar y aun que lo baje se me queda a la misma altura, ¿en algún sitio se puede cambiar la altura?
  * 
- * Pasa algo con las escaleras y parece como que impulsan hacia arriba cuando empiezas a subirlas
+ * 
+ * Algo ha cambiado y el cuadro de luces ya no funciona como debería, ahora las luces se encienden independientemente de si el cuadro de luces está activo o no
  * 
  * 
  * Error Objetos con UVs sobrepuestas
