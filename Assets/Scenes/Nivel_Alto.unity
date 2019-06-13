@@ -31337,11 +31337,6 @@ PrefabInstance:
       propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 367186176629826471, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6992603069890910942, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: strengthOnTouch
@@ -31356,6 +31351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: cancelOnUnuse
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367186176629826471, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -48353,5 +48353,30 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8634266271422187478, guid: bc810c59a2cac2c40afc633e3677f4c6,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 63d411992ede78040a668cd99af9186a, type: 2}
+    m_RemovedComponents:
+    - {fileID: 171363880440586307, guid: bc810c59a2cac2c40afc633e3677f4c6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bc810c59a2cac2c40afc633e3677f4c6, type: 3}
+--- !u!1 &3228014906251635960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9006190283721013946, guid: bc810c59a2cac2c40afc633e3677f4c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3228014906251635959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3228014906251635961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3228014906251635960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822b1c3329949d04cbde9eb869d1b7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fusibleActivo: 1

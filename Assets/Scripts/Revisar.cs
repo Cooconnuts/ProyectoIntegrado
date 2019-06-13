@@ -15,11 +15,7 @@
  * 
  * EN LA ESCAV
  * 
- * Testear en Vr si se puede subir la escalera y si hay que aumentar el Step Up Offset en VRTK_Scripts > BodyPhysics
- * 
  * Reajustar la escala de la casa
- * 
- * Hacer las puertas funcionales (testing)
  * 
  * Ajustar colores e interacciones de los botones del menu principal
  * 
@@ -55,6 +51,9 @@
  * 
  * Cuando utilizo las gafas en la escuela, se me cambia la altura del avatar y aun que lo baje se me queda a la misma altura, ¿en algún sitio se puede cambiar la altura?
  * 
+ * 
+ * Cuando cargo una escena desde el menu principal con las gafas no me deja moverme 
+ * Los botones no cambian de color cuando el puntero los apunta, sí carga las escenas pero no se resalta de ninguna manera para dar a entender al jugador que es un boton.
  * 
  * Algo ha cambiado y el cuadro de luces ya no funciona como debería, ahora las luces se encienden independientemente de si el cuadro de luces está activo o no
  * 
