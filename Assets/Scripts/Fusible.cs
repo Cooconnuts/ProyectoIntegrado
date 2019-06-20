@@ -18,12 +18,7 @@ public class Fusible: MonoBehaviour
        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
+  
     public void Usar()
     {
         fusibleActivo = !fusibleActivo;
