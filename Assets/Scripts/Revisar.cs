@@ -2,10 +2,6 @@
  * 
  * EN CASA
  * 
- * Añadir panel con los controles
- * 
- * Hacer un botón para salir del juego
- * 
  * 
  * EN LA ESCAV
  * 
