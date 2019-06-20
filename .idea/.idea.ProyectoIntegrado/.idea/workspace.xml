@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c19ced-cb12-45ef-9a17-0152e7341b36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoIntegrado/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoIntegrado/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoIntegrado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoIntegrado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Lighting/LP_CandleHolder_Triple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Lighting/LP_CandleHolder_Triple.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/A_Newspaper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/A_Newspaper.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Book_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Book_A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Book_B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Book_B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/D_Radio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/D_Radio.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/FP_Vase_B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/FP_Vase_B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/LP_Magazine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/LP_Magazine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/LP_Vase_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/LP_Vase_A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Painting_StandPhoto_C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Painting_StandPhoto_C.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Painting_Stand_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Living Room/Painting_Stand_A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Office/Xperia.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packs/House_Furniture_Pack/Prefabs/Office/Xperia.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CanvasEstadisticas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CanvasEstadisticas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Alto.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nivel_Bajo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fusible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fusible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoIntegrado.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIntegrado.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1264">
+            <state relative-caret-position="1139">
               <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
               <folding>
                 <marker date="1560376955236" expanded="false" signature="6:139" ph="..." />
@@ -146,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560374854144</updated>
       <workItem from="1560374859158" duration="2281000" />
-      <workItem from="1561061920423" duration="359000" />
+      <workItem from="1561061920423" duration="1273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2640000" />
+    <option name="totallyTimeSpent" value="3554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +229,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interruptor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
+        <state relative-caret-position="1139">
           <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <marker date="1560376955236" expanded="false" signature="6:139" ph="..." />

@@ -3489,31 +3489,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70d31113da8d71d44b053f3afbeb5fb4, type: 3}
---- !u!1 &120416652 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2083437095789718163, guid: 70d31113da8d71d44b053f3afbeb5fb4,
+--- !u!95 &120416657 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 120416657, guid: 70d31113da8d71d44b053f3afbeb5fb4,
     type: 3}
   m_PrefabInstance: {fileID: 120416651}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &120416657
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120416652}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8a1190873da3f564bbec9559a7815397, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &126372241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49014,107 +48995,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3104434025765101461, guid: 89e346388113c2346937b2fe326ac3f2,
+        type: 3}
+      propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 120416657}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e346388113c2346937b2fe326ac3f2, type: 3}
---- !u!1 &3104434025765101460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6359959761913037918, guid: 89e346388113c2346937b2fe326ac3f2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3104434025765101459}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3104434025765101461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3104434025765101460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f96f1837f21d4bf9a77ff61e7b81f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnObjectEnable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnObjectDisable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnNearTouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnNearUntouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnTouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUntouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnGrab:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUngrab:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 120416657}
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: mostrar
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUnuse:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnEnterSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnExitSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnSnapToDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUnsnapFromDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1001 &3228014906251635959
 PrefabInstance:
   m_ObjectHideFlags: 0
