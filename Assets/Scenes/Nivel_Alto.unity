@@ -57,9 +57,9 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 2
-    m_BakeResolution: 16
-    m_AtlasSize: 256
-    m_AO: 0
+    m_BakeResolution: 32
+    m_AtlasSize: 1024
+    m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
@@ -74,8 +74,8 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 16
-    m_PVRSampleCount: 128
+    m_PVRDirectSampleCount: 30
+    m_PVRSampleCount: 256
     m_PVRBounces: 2
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000000, guid: 3ca64c8108ee910459e61c071b86fabe,
+  m_LightingDataAsset: {fileID: 112000000, guid: 4de8c39c3f42f5d46aa3626c871691a9,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -16111,11 +16111,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23807462032335872, guid: 80e7285214a09f0488a3a3d39fe11736,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: ed7b456a3287e5b468eb3e7c2fd9f17c, type: 2}
     - target: {fileID: 65503589272653390, guid: 80e7285214a09f0488a3a3d39fe11736,
         type: 3}
       propertyPath: m_Size.y
@@ -16131,6 +16126,11 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 2.0065343
       objectReference: {fileID: 0}
+    - target: {fileID: 23807462032335872, guid: 80e7285214a09f0488a3a3d39fe11736,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ed7b456a3287e5b468eb3e7c2fd9f17c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e7285214a09f0488a3a3d39fe11736, type: 3}
 --- !u!4 &747871067 stripped
