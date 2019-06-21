@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 8310891703280573394}
   - component: {fileID: 8310891703280573395}
   - component: {fileID: 3133437714136008033}
+  - component: {fileID: 3104434025765101461}
   m_Layer: 0
   m_Name: Xperia
   m_TagString: Untagged
@@ -397,3 +398,96 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.121689, y: 0.5610806, z: 9.945357}
   m_Center: {x: -0.0057907104, y: -0.012770736, z: 0.0027050974}
+--- !u!114 &3104434025765101461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6359959761913037918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f96f1837f21d4bf9a77ff61e7b81f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnObjectEnable:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnObjectDisable:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnNearTouch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnNearUntouch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnTouch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUntouch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnGrab:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUngrab:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: mostrar
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUnuse:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnEnterSnapDropZone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnExitSnapDropZone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnSnapToDropZone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUnsnapFromDropZone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

@@ -719,6 +719,7 @@
           <e p="BotonMenu.cs" t="Include" />
           <e p="Fusible.cs" t="Include" />
           <e p="Interruptor.cs" t="Include" />
+          <e p="Linterna.cs" t="Include" />
           <e p="Revisar.cs" t="Include" />
         </e>
         <e p="VRTK" t="Include">

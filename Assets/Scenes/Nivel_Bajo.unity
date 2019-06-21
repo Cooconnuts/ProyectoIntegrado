@@ -3382,11 +3382,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasEstadisticas
       objectReference: {fileID: 0}
-    - target: {fileID: 2083437095789718163, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3450,7 +3445,7 @@ PrefabInstance:
     - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.311
+      value: -0.284
       objectReference: {fileID: 0}
     - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
         type: 3}
@@ -3492,56 +3487,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124006, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Padding.m_Left
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124006, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_CellSize.x
-      value: 430
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124006, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_CellSize.y
-      value: 130
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124006, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Spacing.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124006, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Spacing.y
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124007, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124007, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.2971698
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124007, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.2971698
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083437097252124007, guid: 70d31113da8d71d44b053f3afbeb5fb4,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70d31113da8d71d44b053f3afbeb5fb4, type: 3}
---- !u!1 &120416652 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2083437095789718163, guid: 70d31113da8d71d44b053f3afbeb5fb4,
+--- !u!95 &120416657 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 120416657, guid: 70d31113da8d71d44b053f3afbeb5fb4,
     type: 3}
   m_PrefabInstance: {fileID: 120416651}
   m_PrefabAsset: {fileID: 0}
@@ -13396,8 +13346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822b1c3329949d04cbde9eb869d1b7f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fusibleActivo: 1
-  luz: {fileID: 0}
+  fusibleActivo: 0
+  luz: {fileID: 1899410168}
 --- !u!1001 &643763366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21212,7 +21162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982795404}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.564, y: 2.492, z: 12.891}
+  m_LocalPosition: {x: 0.98, y: 2.492, z: 11.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1863837656}
@@ -28955,7 +28905,7 @@ MonoBehaviour:
   allowedTouchControllers: 0
   ignoredColliders: []
   isGrabbable: 1
-  holdButtonToGrab: 1
+  holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
@@ -43573,6 +43523,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1899248506}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1899410168 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8634266271422187478, guid: bc810c59a2cac2c40afc633e3677f4c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3228014906251635959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1901493417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4362108752500656, guid: 08398f53c20b0bf4cbba87abb97a3bd6,
@@ -49039,107 +48995,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3104434025765101461, guid: 89e346388113c2346937b2fe326ac3f2,
+        type: 3}
+      propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 120416657}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e346388113c2346937b2fe326ac3f2, type: 3}
---- !u!1 &3104434025765101460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6359959761913037918, guid: 89e346388113c2346937b2fe326ac3f2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3104434025765101459}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3104434025765101461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3104434025765101460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f96f1837f21d4bf9a77ff61e7b81f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnObjectEnable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnObjectDisable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnNearTouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnNearUntouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnTouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUntouch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnGrab:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUngrab:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 120416652}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUnuse:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnEnterSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnExitSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnSnapToDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  OnUnsnapFromDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1001 &3228014906251635959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49237,6 +49099,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 63d411992ede78040a668cd99af9186a, type: 2}
+    - target: {fileID: 1150326718515550352, guid: bc810c59a2cac2c40afc633e3677f4c6,
+        type: 3}
+      propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 635148936}
+    - target: {fileID: 1150326718515550352, guid: bc810c59a2cac2c40afc633e3677f4c6,
+        type: 3}
+      propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Usar
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 171363880440586307, guid: bc810c59a2cac2c40afc633e3677f4c6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bc810c59a2cac2c40afc633e3677f4c6, type: 3}
