@@ -2000,6 +2000,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Bedroom double
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &55676789 stripped
@@ -3295,6 +3300,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Corridor Upstairs Start
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &117121797 stripped
@@ -3445,7 +3455,7 @@ PrefabInstance:
     - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.284
+      value: -0.303
       objectReference: {fileID: 0}
     - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
         type: 3}
@@ -3486,6 +3496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2083437095789718164, guid: 70d31113da8d71d44b053f3afbeb5fb4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.00097453
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70d31113da8d71d44b053f3afbeb5fb4, type: 3}
@@ -5615,6 +5630,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 240446071}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &240772500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6359959761913037918, guid: 89e346388113c2346937b2fe326ac3f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3104434025765101459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &240772501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240772500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 0}
+  touchHighlight: {r: 0.7490196, g: 0.9882353, b: 1, a: 0.1764706}
+  grabHighlight: {r: 0, g: 0, b: 0, a: 0}
+  useHighlight: {r: 0, g: 0, b: 0, a: 0}
+  objectToMonitor: {fileID: 0}
+  objectToHighlight: {fileID: 0}
+  objectHighlighter: {fileID: 0}
+  objectToAffect: {fileID: 0}
 --- !u!1001 &246229101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7167,24 +7208,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 332430367}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &333809262 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 147698, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 440126703}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &333809263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333809262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b5cc64242e8d214383938387babae34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &336533711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7888,6 +7911,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Bedroom Small
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &359552733 stripped
@@ -8318,7 +8346,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Espejo
+      value: Toilet Mirror
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -9848,7 +9876,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Pasillo 2
+      value: Corridor_Start
       objectReference: {fileID: 0}
     - target: {fileID: 1593298723351203460, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
@@ -9869,7 +9897,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 333809263}
+      objectReference: {fileID: 0}
     - target: {fileID: 1593298723351203460, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: OnUse.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -10987,7 +11015,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Mesa
+      value: Kitchen Table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -12765,6 +12793,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Bathroom Mirror
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &602810795 stripped
@@ -13346,7 +13379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822b1c3329949d04cbde9eb869d1b7f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fusibleActivo: 0
+  fusibleActivo: 1
   luz: {fileID: 1899410168}
 --- !u!1001 &643763366
 PrefabInstance:
@@ -16760,6 +16793,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Stairs Up
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &798291702 stripped
@@ -23099,7 +23137,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Entrada
+      value: Entrance
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -25054,7 +25092,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Cocina
+      value: Kitchen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -25871,7 +25909,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Escaleras
+      value: Stairs Down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -27938,6 +27976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flashlight
       objectReference: {fileID: 0}
+    - target: {fileID: 1002705123656268, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1175331865632600, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -29764,6 +29806,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Desk
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &1360214016 stripped
@@ -31235,7 +31282,12 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: "Ba\xF1o"
+      value: Toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: "tama\xF1oTexto"
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -31925,7 +31977,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Pasillo
+      value: Corridor End
       objectReference: {fileID: 0}
     - target: {fileID: 1593298723351203460, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
@@ -33903,6 +33955,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Bathroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &1469669328 stripped
@@ -38416,7 +38473,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Salon
+      value: Livingroom
       objectReference: {fileID: 0}
     - target: {fileID: 367186176629826471, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
@@ -40249,6 +40306,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Office
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &1760196928 stripped
@@ -40585,7 +40647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460408, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3980002
+      value: 1.4612
       objectReference: {fileID: 0}
     - target: {fileID: 460408, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40593,7 +40655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460408, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.547999
+      value: 12.5991
       objectReference: {fileID: 0}
     - target: {fileID: 460408, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -40653,7 +40715,7 @@ PrefabInstance:
     - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
         type: 3}
       propertyPath: nombre
-      value: Extractor
+      value: Extraction Hood
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
@@ -47856,6 +47918,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8385674451695940393, guid: 3d1d7539bc162b34b9ac84d8f3635c18,
         type: 3}
+    - target: {fileID: 716846811999168766, guid: b31e5f3f86342dd4b8c9f539c34a12f1,
+        type: 3}
+      propertyPath: nombre
+      value: Corridor Upstairs End
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31e5f3f86342dd4b8c9f539c34a12f1, type: 3}
 --- !u!4 &2100821445 stripped
@@ -49084,15 +49151,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8
       objectReference: {fileID: 0}
-    - target: {fileID: 171363880440586307, guid: bc810c59a2cac2c40afc633e3677f4c6,
-        type: 3}
-      propertyPath: fusibleActivo
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 75973469478165524, guid: bc810c59a2cac2c40afc633e3677f4c6,
         type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171363880440586307, guid: bc810c59a2cac2c40afc633e3677f4c6,
+        type: 3}
+      propertyPath: fusibleActivo
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8634266271422187478, guid: bc810c59a2cac2c40afc633e3677f4c6,
         type: 3}

@@ -12,6 +12,7 @@ public class Interruptor : MonoBehaviour
     public GameObject etiqueta; // Prefab de la etiqueta que vamos a crear
     private float lightTime = 0; // Tiempo que el interruptor esta encendido
     private Text textTime; // Texto que muestra el tiempo 
+    private int tamañoTexto = 5;
     private bool encendida = false; // Indica si la lus esta encendida 
     public Animator luz;
     // Start is called before the first frame update
@@ -40,11 +41,13 @@ public class Interruptor : MonoBehaviour
 
             if (encendida)
             {
-                textTime.color = Color.yellow;
+                textTime.color = new Color(130,194,224,100);
+                textTime.fontSize = tamañoTexto;
             }
             else
             {
-                textTime.color = Color.black;
+                textTime.color = new Color(56, 84, 97,100);
+                textTime.fontSize = tamañoTexto;
             }
         }
         
